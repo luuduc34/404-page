@@ -4,7 +4,7 @@ body {
     text-align: center;
   }
   
-  .mainbox {
+.mainbox {
     background-color: #95c2de;
     margin: auto;
     height: 600px;
@@ -12,54 +12,65 @@ body {
     position: relative;
   }
   
-    .err {
-      color: #ffffff;
-      font-family: 'Nunito Sans', sans-serif;
-      font-size: 11rem;
-      
+.err {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11rem;      
     }
   
-  .msg {
-      text-align: center;
-      font-family: 'Nunito Sans', sans-serif;
-      font-size: 1.6rem;
-      
-      /* width: 75%; */
-    }
-  .home {    
-        text-align: center;
-        font-family: 'Nunito Sans', sans-serif;
-        font-size: 1.3rem;
-  }
-  
- 
-  
-  /*a:hover {
-    color: coral;
-    font-size: 1.6rem; 
-    
-  }*/
-  /* .button {
-    background-color: #4CAF50; 
-    border: none;    
-    padding: 10px 20px;
+.msg {
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px; */ 
-  }
-  .btn {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.6rem;
+    }
+.emo{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.6rem;
+}
+  
+.btn {
     background-color: #ddd;
     border: none;
     color: black;
     padding: 16px 32px;
     text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
+    
+    margin: 14px 12px;
     transition: 0.3s;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.3rem;
   }
   
-  .btn:hover {
+.btn:hover {
     background-color: #3e8e41;
     color: white;
   }
+  /*.emo
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+ background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  display: inline-block;
+      font-size: 90px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}*/
